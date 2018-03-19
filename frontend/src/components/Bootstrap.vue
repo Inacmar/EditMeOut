@@ -5,7 +5,7 @@
     <p></p>
     <h6><b-badge variant="primary"> Let´s go!</b-badge> Call a Spring Boot REST backend service, by clicking a button:</h6>
     <p></p>
-    <b-btn variant="success" @click="callRestService(); showResponse=true" id="btnCallHello">/hello (GET)</b-btn>
+    <b-btn variant="success" v-on:click="callRestService(); showResponse=true" id="btnCallHello">/hello (GET)</b-btn>
     <p></p>
     <h4>Backend response: <b-alert :show="showResponse" dismissible @dismissed="showResponse=false">{{ response }}</b-alert></h4>
 
