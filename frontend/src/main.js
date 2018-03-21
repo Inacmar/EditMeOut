@@ -9,6 +9,7 @@ Vue.config.productionTip = false
 
 // Bootstrap
 Vue.use(BootstrapVue)
+import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 /* eslint-disable no-new */
